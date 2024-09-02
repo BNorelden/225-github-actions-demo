@@ -30,4 +30,4 @@ jobs:
           args: deploy --only hosting
         env:
           GOOGLE_APPLICATION_CREDENTIALS: $HOME/gcloud-service-key.json
-          # FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
